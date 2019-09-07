@@ -1,0 +1,15 @@
+{
+  "name": "mocha-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node_modules/.bin/mocha Tests/DefaultTest.js --timeout 10000000"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^76.0.1",
+    "mocha": "^6.2.0",
+    "selenium-webdriver": "^4.0.0-alpha.4"
+  }
+}
